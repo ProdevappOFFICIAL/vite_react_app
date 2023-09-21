@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+}
+
+li {
+  flex: 1;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+  color: #333;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #ddd;
+}
+
+button {
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00569e;
+}
+
+.tab-content {
+  padding: 20px;
+}
+
+/* Simulating browser window */
+.browser-window {
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #0078d4;
+}
+
+/* Active tab */
+li.active a {
+  background-color: #fff;
+  color: #0078d4;
+  font-weight: bold;
+}
